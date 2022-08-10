@@ -1,2 +1,4 @@
-package com.example.passwordmanagementsystem.services;public interface UrlService {
+package com.example.passwordmanagementsystem.services;
+
+public interface UrlService {
 }
