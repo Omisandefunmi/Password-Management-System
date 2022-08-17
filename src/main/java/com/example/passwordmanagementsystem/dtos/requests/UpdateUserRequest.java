@@ -7,9 +7,9 @@ import lombok.Setter;
 @Setter
 @Getter
 @NoArgsConstructor
-public class RegisterUserRequest {
+public class UpdateUserRequest {
     private String email;
     private String password;
-    private String phoneNumber;
     private String username;
+    private String phoneNumber;
 }

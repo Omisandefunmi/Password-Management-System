@@ -1,15 +1,16 @@
 package com.example.passwordmanagementsystem.dtos.responses;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
-@NoArgsConstructor
 @Setter
 @Getter
-public class RegisterUserResponse {
-    private String message;
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public class UserDto {
+    private String id;
     private String email;
     private String phoneNumber;
     private String username;
+
 }
