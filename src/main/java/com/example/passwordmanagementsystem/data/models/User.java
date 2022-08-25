@@ -17,6 +17,7 @@ public class User {
     @Id
     private String id;
     private String email;
+    @Getter(AccessLevel.PRIVATE)
     private String password;
     private String phoneNumber;
     private String username;
